@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="akka-playground" target="1.8" />
+      <module name="akka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="akka-playground" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="akka-server" options="-Xlint:unchecked -Xlint:deprecation" />
+    </option>
+  </component>
+</project>
